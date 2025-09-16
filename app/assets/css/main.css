@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@tailwind utilities;
+
+/* CSS Variables Light Mode */
+:root {
+  --tg-bg: #FFFFFF;
+  --tg-panel: #F4F4F5;
+  --tg-text: #000000;
+  --tg-muted: #707579;
+  --tg-accent: #2AABEE;
+  --tg-sent: #E3F1FC;
+  --tg-received: #F1F1F1;
+}
+
+/* CSS Variables Dark Mode */
+.dark {
+  --tg-bg: #17212B;
+  --tg-panel: #0E1621;
+  --tg-text: #FFFFFF;
+  --tg-muted: #AAAAAA;
+  --tg-accent: #2AABEE;
+  --tg-sent: #182533;
+  --tg-received: #2B5278;
+}
+
+/* baza */
+body {
+  background-color: var(--tg-bg);
+  color: var(--tg-text);
+}

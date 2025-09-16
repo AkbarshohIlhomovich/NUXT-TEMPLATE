@@ -14,8 +14,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "build-template": "rm -rf template && mkdir template && cp -r app public nuxt.config.ts tsconfig.json template/"
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "nuxt": "^4.1.1",

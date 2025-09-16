@@ -1,75 +1,25 @@
-# Nuxt Minimal Starter
+# 🟢 Nuxt 4 Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Custom **Nuxt 4 Starter Template** with Nuxt UI, Pinia and best practices included.  
+Made by [@akbarwebdev](https://github.com/AkbarshohIlhomovich) 💻
 
-## Setup
+---
 
-Make sure to install dependencies:
+## ✨ Features
 
-```bash
-# npm
-npm install
+- ⚡ **Nuxt 4** (latest)
+- 🎨 **Nuxt UI** (components + Tailwind ready)
+- 🗂 **Pinia** for state management
+- 🔗 **Vue Router** pre-configured
+- 📦 Ready-to-use project structure (`app/`, `public/`, `nuxt.config.ts`)
+- ✅ TypeScript support out of the box
+- 📱 Mobile-friendly setup
 
-# pnpm
-pnpm install
+---
 
-# yarn
-yarn install
+## 🚀 Getting Started
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### 1. Create new project using this template
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+npx nuxi init my-app -t gh:AkbarshohIlhomovich/NUXT-TEMPLATE#main
